@@ -1,0 +1,19 @@
+/* imageContainer.css */
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.weather-image {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+@media (max-width: 600px) {
+  .image-container {
+    flex-direction: column;
+  }
+}
